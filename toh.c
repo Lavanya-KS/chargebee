@@ -14,7 +14,7 @@ void toh(int num_of_disk, char fromrod, char torod, char auxrod)
 
 int main()
 {
-    int disk = 3; // Number of disks
+    int disk = 4; // Number of disks
     toh(disk, 'A', 'C', 'B');  // A, B and C are names of rods
     return 0;
 }
